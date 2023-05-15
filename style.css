@@ -28,16 +28,12 @@ body {
                 width: 80%;
                 height: 100%;
                 font-size: 30px;
-                background: url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGludGVybmV0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60)
+
+             background: url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGludGVybmV0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60)
                 no-repeat center center / cover;
                 color: #fff;
                 margin-right: 10px;
             
-    }
-
-    .title {
-        position: relative;
-        z-index: 1;
     }
 
     .userpic {
@@ -48,9 +44,10 @@ body {
         background: url("assets/img/silkina2.jpg")
         no-repeat center center / cover;
         color:#fff;
-        margin-right: 10px;
+        }
 
-        
-
-                          
+    .title {
+        margin-top: -40px
     }
+
+    
