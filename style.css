@@ -6,10 +6,16 @@ body {
         background: url(https://img.freepik.com/premium-photo/white-background-watercolor-paper_88281-2127.jpg?w=2000) ;
         padding: 100px 0;
     }
-    .container 
+
+h3 {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+    }
+   .container 
     {
             width: 800px;   
-            min-height: 800px;
+            min-height: 500px;
             border: 10px solid white;
             margin: 0 auto;
             background: #fff;
@@ -50,4 +56,47 @@ body {
         margin-top: -40px
     }
 
-    
+    .nav ul {
+        display: flex;
+        background: rgb(230, 230, 230);
+        margin: 10px 0;
+    }
+
+    .nav li {
+        display: flex;
+
+    }
+
+    .nav li a {
+        display: flex;
+        padding: 20px;
+        text-decoration: none;
+        color: #404040;
+        font-weight: bold;
+        border-right: 1px solid #d1d1d1;
+        transition: 3s ease;
+    }
+    .content-wrapper
+    {
+     display: flex;
+    }
+
+    .content {
+         width: 70%;
+         padding: 20px;
+
+    }
+    .sidebar {
+                   width: 30%;
+                   padding: 20px;
+    }
+
+    .nav li a:hover {
+        background: rgb(196, 196, 196);
+    }
+ .skills li
+ {
+margin: 10px 0;;
+
+ }
+   
